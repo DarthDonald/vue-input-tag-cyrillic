@@ -1,3 +1,5 @@
+https://github.com/matiastucci/vue-input-tag - Original repository change for cyrillic alphabet using
+
 # vue-input-tag
 > A Vue.js 2.0 input tag component inspired in [react-tagsinput](https://github.com/olahol/react-tagsinput)
 
@@ -42,4 +44,3 @@ import InputTag from 'vue-input-tag'
 | validate | String | "" | Apply certain validator for user input. Choose from `email`, `url`, `text`, `digits` or `isodate`
 
 **This project was built with [generator-vue-component](https://github.com/ianaya89/generator-vue-component) ❤️**
-
