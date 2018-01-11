@@ -90,7 +90,7 @@
       <span>{{ tag }}</span>
       <a v-if="!readOnly" @click.prevent.stop="remove(index)" class="remove"></a>
     </span>
-    <input v-if="!readOnly" v-bind:placeholder="placeholder" type="text" v-model="newTag" v-on:keydown.delete.stop="removeLastTag()" v-on:keydown.enter.tab.prevent.stop="addNew(newTag)" class="new-tag"/>
+    <input v-if="!readOnly" v-bind:placeholder="placeholder" type="text" v-model.trim="newTag" v-on:keydown.delete.stop="removeLastTag()" v-on:keydown.enter.tab.prevent.stop="addNew(newTag)" class="new-tag"/>
   </div>
 
 </template>
